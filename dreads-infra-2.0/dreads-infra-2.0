@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T19:22:27.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="oNcfJUWFadukHMj3EYbI" version="20.8.20" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-20T19:37:22.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="A9R4Wiblzwmh9UFNeRKX" version="20.8.20" type="github" pages="5">
   <diagram name="Página-1" id="V30MzkJ5MUvWgqmBgieQ">
     <mxGraphModel dx="2027" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2135,14 +2135,14 @@
         <mxCell id="EUXMi5jNLFOTXRcnhKN6-6" value="VLAN PROXY" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;dashed=1;align=left;verticalAlign=top;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
           <mxGeometry x="500" y="690" width="1090" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="EUXMi5jNLFOTXRcnhKN6-7" value="INFRA DR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
+        <mxCell id="EUXMi5jNLFOTXRcnhKN6-7" value="INFRA ZERO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
           <mxGeometry x="530" y="780" width="1040" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EUXMi5jNLFOTXRcnhKN6-8" value="Certificate Manager&lt;br&gt;(Minimal)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
-          <mxGeometry x="540" y="830" width="333" height="60" as="geometry" />
+        <mxCell id="EUXMi5jNLFOTXRcnhKN6-8" value="Certificate Manager&lt;br&gt;(minimal)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
+          <mxGeometry x="750" y="830" width="266" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EUXMi5jNLFOTXRcnhKN6-9" value="Gitlab&lt;br&gt;(Minimal)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
-          <mxGeometry x="1230" y="830" width="333" height="60" as="geometry" />
+        <mxCell id="EUXMi5jNLFOTXRcnhKN6-9" value="Gitlab&lt;br&gt;(minimal)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
+          <mxGeometry x="1024" y="830" width="266" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EUXMi5jNLFOTXRcnhKN6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontSize=15;endArrow=classic;endFill=1;" edge="1" parent="EUXMi5jNLFOTXRcnhKN6-1" source="EUXMi5jNLFOTXRcnhKN6-11" target="EUXMi5jNLFOTXRcnhKN6-14">
           <mxGeometry relative="1" as="geometry" />
@@ -3047,9 +3047,6 @@
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-28" value="Object Storage" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-25">
           <mxGeometry x="25" y="118" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qoGvSRI_l5-hbl3z4YTV-29" value="INFRA LEGACY" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="220" y="60" width="515" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-30" value="" style="group" vertex="1" connectable="0" parent="qoGvSRI_l5-hbl3z4YTV-7">
           <mxGeometry x="220" y="148" width="745" height="90" as="geometry" />
         </mxCell>
@@ -3122,26 +3119,14 @@
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-54" value="Security" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-47">
           <mxGeometry x="102.01342281879195" width="91.81208053691276" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qoGvSRI_l5-hbl3z4YTV-56" value="CLM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="230" y="100" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qoGvSRI_l5-hbl3z4YTV-57" value="RAM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="357" y="100" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qoGvSRI_l5-hbl3z4YTV-58" value="Sonar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="484" y="100" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qoGvSRI_l5-hbl3z4YTV-83" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="610" y="100" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-82" value="VMs Base" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;align=center;verticalAlign=top;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="740" y="60" width="240" height="80" as="geometry" />
+          <mxGeometry x="220" y="60" width="760" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-20" value="Satellite" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="760" y="100" width="90" height="30" as="geometry" />
+          <mxGeometry x="290" y="100" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-55" value="Bootstrapper" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="qoGvSRI_l5-hbl3z4YTV-7">
-          <mxGeometry x="860" y="100" width="90" height="30" as="geometry" />
+          <mxGeometry x="600" y="100" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qoGvSRI_l5-hbl3z4YTV-59" value="" style="group" vertex="1" connectable="0" parent="qoGvSRI_l5-hbl3z4YTV-5">
           <mxGeometry x="30" y="320" width="1020" height="380" as="geometry" />
@@ -3299,8 +3284,11 @@
         <mxCell id="EUXMi5jNLFOTXRcnhKN6-314" value="Internet" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
           <mxGeometry x="1222" y="290" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qoGvSRI_l5-hbl3z4YTV-1" value="Nexus&lt;br&gt;(Minimal)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
-          <mxGeometry x="883.5" y="830" width="333" height="60" as="geometry" />
+        <mxCell id="qoGvSRI_l5-hbl3z4YTV-1" value="Nexus&lt;br&gt;(minimal)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
+          <mxGeometry x="1296" y="830" width="266" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qoGvSRI_l5-hbl3z4YTV-84" value="Bastion" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="EUXMi5jNLFOTXRcnhKN6-1">
+          <mxGeometry x="540" y="830" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
